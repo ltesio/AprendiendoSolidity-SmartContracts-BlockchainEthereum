@@ -20,5 +20,5 @@ Las funciones desarrolladas permiten:
 Conceptos aprendidos:
 - modifier: Como crear un modificador y como utilizarlo. Su objetivo es crear restricciones de seguridad en las funciones.
 - payable: Permite que el contrato reciba DINERO (ether). Solo se usa en funciones que necesiten escribir sobre la blockchain.
-- wiew: Solo se usa en funciones que solo necesiten leer sobre la blockchain.
+- view: Solo se usa en funciones que solo necesiten leer sobre la blockchain.
 
