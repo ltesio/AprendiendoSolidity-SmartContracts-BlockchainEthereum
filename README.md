@@ -3,7 +3,7 @@ Vas a encontrar varios ejemplos de contratos inteligentes desarrollados en Solid
 
 ## Solidity
 
-Documentación Solidity en español: https://solidity-es.readthedocs.io/es/latest/
+Documentación: [Solidity en Español](https://solidity-es.readthedocs.io/es/latest/)
 
 
 ## Mis Smart Contracts
@@ -18,7 +18,7 @@ Las funciones desarrolladas permiten:
 4) Modificar el dueño del contrato.
 
 Conceptos aprendidos:
-- modifier: Como crear un modificador y como utilizarlo. Su objetivo es crear restricciones de seguridad en las funciones.
-- payable: Permite que el contrato reciba DINERO (ether). Solo se usa en funciones que necesiten escribir sobre la blockchain.
-- view: Solo se usa en funciones que solo necesiten leer sobre la blockchain.
+- *modifier*: Como crear un modificador y como utilizarlo. Su objetivo es crear restricciones de seguridad en las funciones.
+- *payable*: Permite que el contrato reciba DINERO (ether). Solo se usa en funciones que necesiten escribir sobre la blockchain.
+- *view*: Solo se usa en funciones que solo necesiten leer sobre la blockchain.
 
