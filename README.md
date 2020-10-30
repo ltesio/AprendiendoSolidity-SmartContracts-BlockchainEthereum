@@ -1,13 +1,18 @@
 # Blockchain Ethereum - Smart Contracts - Aprendiendo Solidity
 Vas a encontrar varios ejemplos de contratos inteligentes desarrollados en Solidity para la Blockchain de Ethereum. Cada linea de código esta explicada en español y a modo educativo.
 
-## Solidity
+### Herramientas
+**Solidity**
 
-Documentación: [Solidity en Español](https://solidity-es.readthedocs.io/es/latest/)
+Lenguaje de programacion utilizado para codear los contratos inteligentes. Documentación: [Solidity en Español](https://solidity-es.readthedocs.io/es/latest/)
+
+**Remix**
+
+Herramienta utilizada para codear, compilar, hacer el deploy de los contratos y el testing de los mismos. [Remix Ethereum](https://remix.ethereum.org/)
 
 
-## Mis Smart Contracts
 
+### Mis Smart Contracts
 **Bank.sol**
 
 En este contrato vas a encontrar la funcionalidad basica de una cuenta bancaria. El que hace el Deploy, se convierte en el dueño del contrato.
