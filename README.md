@@ -28,8 +28,9 @@ Conceptos aprendidos:
 - *view*: Solo se usa en funciones que solo necesiten leer sobre la blockchain.
 - *require*: Validaciones. La misma debe cumplirse para que continúe la ejecución del código. Caso contrario finaliza la función.
 
-
+------------------------------------
 **Cars.sol**
+
 En este contrato vas a encontrar la funcionalidad básica de una concesionaria de autos.
 Las funciones desarrolladas permiten:
 1) Anotar los autos que fueron vendidos y a quien.
@@ -44,4 +45,19 @@ Conceptos aprendidos:
 - *returns*: Como retornar uno o múltiples valores en una función.
 - *array, dictionary, struct*: Como declarar arreglos, diccionarios y estructuras de datos. Y como escribir y leer los mismos.
 
+------------------------------------
+**Lottery.sol**
+
+En este contrato vas a encontrar la funcionalidad básica de un juego de Lotería. 
+Las funciones desarrolladas permiten:
+1) Participar del sorteo. El apostador paga el valor de la apuesta, se le asigna un valor semi-aleatorio y se verifica si es Ganador o no.
+2) Ver el premio acumulado por el cual participa el apostador.
+3) Retirar los fondos acumulados del contrato de las comisiones, solo si sos el dueño del mismo.
+
+Conceptos aprendidos:
+- *transfer*: Permite transferir una cantidad de DINERO a una Address indicada.
+- *if*: Es usado para establecer condiciones.
+- *now*: Fecha de minado del bloque. (Variable Global de BLOQUE).
+- *msg.sender*: Address de quien está haciendo la transacción. (Variable Global de TRANSACCION).
+- *uint256()*: Permite castear tipos de datos. En este caso convierte un numero tipo hash a tipo uint256.
 
