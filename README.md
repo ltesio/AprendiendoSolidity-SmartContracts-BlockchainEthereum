@@ -61,3 +61,21 @@ Conceptos aprendidos:
 - *msg.sender*: Address de quien está haciendo la transacción. (Variable Global de TRANSACCION).
 - *uint256()*: Permite castear tipos de datos. En este caso convierte un numero tipo hash a tipo uint256.
 
+------------------------------------
+**MyToken.sol**
+
+En este contrato vas a encontrar la funcionalidad básica para crear nuestro propio Token Estándar de Ethereum (ERC-20). 
+Las funciones desarrolladas permiten:
+1) Crear nuestro propio Token.
+2) Transferir estos Tokens.
+3) Autorizar a otras Personas (address) a transferir una cierta cantidad de Tokens.
+4) Personas (address) Autorizadas pueden transferir estos Tokens.
+5) Visualizar balance actual de cada Address.
+
+Conceptos aprendidos:
+- *event*: Definición de Eventos de la blockchain de Ethereum.
+- *emit*: Llamada a Eventos de la blockchain de Ethereum.
+- *Transfer*: Transferir tokens.
+- *Approval*: Autorizar a una Address transferir mis Tokens.
+
+
