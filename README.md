@@ -1,5 +1,5 @@
 # Blockchain Ethereum - Smart Contracts - Aprendiendo Solidity
-Vas a encontrar varios ejemplos de contratos inteligentes desarrollados en Solidity para la Blockchain de Ethereum. Cada línea de código esta explicada en español y a modo educativo.
+Vas a encontrar varios ejemplos de contratos inteligentes desarrollados en Solidity para la Blockchain de Ethereum. Cada línea de código esta explicada en español y a modo educativo. Cada contrato inteligente compartido, fue previamente compilado y deployado. Además, se verifico el correcto funcionamiento de cada una de las funciones que tiene cada contrato.
 
 ### Herramientas
 **Solidity**
@@ -64,7 +64,7 @@ Conceptos aprendidos:
 ------------------------------------
 **MyToken.sol**
 
-En este contrato vas a encontrar la funcionalidad básica para crear nuestro propio Token Estándar de Ethereum (ERC-20). 
+En este contrato vas a encontrar la funcionalidad básica para crear tu propio Token Estándar de Ethereum (ERC-20). 
 Las funciones desarrolladas permiten:
 1) Crear nuestro propio Token.
 2) Transferir estos Tokens.
@@ -77,5 +77,22 @@ Conceptos aprendidos:
 - *emit*: Llamada a Eventos de la blockchain de Ethereum.
 - *Transfer*: Transferir tokens.
 - *Approval*: Autorizar a una Address transferir mis Tokens.
+
+------------------------------------
+**MySecurityToken.sol**
+
+En este contrato vas a encontrar la funcionalidad básica para crear tu propio Security Token Estándar de Ethereum (ERC-20). 
+Las funciones desarrolladas permiten:
+1) Crear nuestro propio Token.
+2) Transferir estos Tokens.
+3) Autorizar a otras Personas (address) a transferir una cierta cantidad de Tokens.
+4) Personas (address) Autorizadas pueden transferir estos Tokens.
+5) Visualizar balance actual de cada Address.
+6) Añadir nuevos Token para repartir como Dividendos.
+7) Calcular los Dividendos que le corresponden a cada Address.
+8) Pago de los dividendos a cada Address.
+
+Conceptos aprendidos:
+- Como convertir un Token en un Security Token (Acciones de empresas que reparten dividendos entre sus poseedores).
 
 
