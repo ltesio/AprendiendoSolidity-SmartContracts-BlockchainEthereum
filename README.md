@@ -95,4 +95,17 @@ Las funciones desarrolladas permiten:
 Conceptos aprendidos:
 - Como convertir un Token en un Security Token (Acciones de empresas que reparten dividendos entre sus poseedores).
 
+------------------------------------
+**TokenSale.sol**
+
+En este contrato vas a encontrar la funcionalidad básica para Vender tu propio Token Estándar de Ethereum (ERC-20). 
+Las funciones desarrolladas permiten:
+1) Vender nuestro propio Token.
+2) Finalizar la venta de estos Tokens.
+
+Conceptos aprendidos:
+- *interface*: Declarar otro Smart Contract dentro del actual contrato. Definir funciones a utilizar.
+- *function balanceOf(address _address) external view returns(uint256);*: Declarar dentro de Interface las funciones de un contrato externo o importado a utilizar.
+- *MyToken myTokenContract;*: Declarar una variable de tipo Contrato.
+- *myTokenContract.balanceOf(address(this))*: Hacer uso de una función que se encuentra en un contrato importado.
 
