@@ -1,4 +1,5 @@
-# Blockchain Ethereum - Smart Contracts - Aprendiendo Solidity
+**Blockchain Ethereum (Smart Contract)**
+# Aprendiendo Solidity
 Vas a encontrar varios ejemplos de contratos inteligentes desarrollados en Solidity para la Blockchain de Ethereum. Cada línea de código esta explicada en español y a modo educativo. Cada contrato inteligente compartido, fue previamente compilado y deployado. Además, se verifico el correcto funcionamiento de cada una de las funciones que tiene cada contrato.
 
 ### Herramientas
