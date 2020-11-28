@@ -110,3 +110,16 @@ Conceptos aprendidos:
 - *MyToken myTokenContract;*: Declarar una variable de tipo Contrato.
 - *myTokenContract.balanceOf(address(this))*: Hacer uso de una función que se encuentra en un contrato importado.
 
+------------------------------------
+**PaymentChannel.sol**
+
+En este contrato vas a encontrar la funcionalidad básica de un canal de pago. Tiene una utilidad similar a la emisión y firma de los cheques, y la cobranza de los mismos. 
+Las funciones desarrolladas permiten:
+1) Añadir dinero al contrato.
+2) Reclamar un pago pendiente.
+3) Obtener el balance del contrato.
+
+Conceptos aprendidos:
+- *Rearmar mensaje público*: Como recrear un hash o mensaje de pago generado por una entidad externa.
+- *Verificar firma*: Como verificar si la Address que intenta cobrar este pago es la que realmente firmo este mensaje.
+
